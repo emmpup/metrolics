@@ -49,7 +49,7 @@
   </header>
 
   <!-- Banner -->
-  <section class="page__banner">
+  <div class="page__banner">
     <div class="page__banner__row">
       <div class="page__header__banner__col">
         <a href="" class="page__banner__flag">Metro Style</a>
@@ -57,7 +57,7 @@
         <a href="" class="page__banner__flag">Metro Styling reinvented</a>
       </div>
     </div>
-  </section>
+  </div>
 
     <!-- Title -->
      <section class="page__intro">
@@ -104,44 +104,49 @@
     <!-- Blog Section -->
     <section class="Section">
       <div class="Section_Header">
-        <h2 class="Section_Header_Title">What’s Up Lately?</h2>
-        <h4 class="Section_Header_Subtitle">Read up on our latest work</h4>
+        <div class="section_header">
+          <h2 class="Section_Header_Title">What’s Up Lately?</h2>
+          <h4 class="Section_Header_Subtitle">Read up on our latest work</h4>
+        </div>
       </div>
       <div class="Section_Blog">
         <div class="Blog_Entry">
           <div class="Blog_Date">
-            <p class="Blog_Date_Text"><span class="Blog_Date_Number">29</span> Jan, 2025</p>
+            <h3 class="blog_date_day">29</h3>
+            <p class="Blog_Date_month-year">Jan. 2025</p>
           </div>
           <div class="Blog_Desc">
             <div class="Blog_Desc_Content">
               <h3 class="Blog_Desc_Heading">Sample Image Post</h3>
               <p class="Blog_Desc_Tags">Photography</p>
             </div>
-            <img src="favicon.ico" alt="Blog Icon" class="Blog_Desc_Icon">
+            <div class="blog_desc_box"></div>
           </div>
         </div>
         <div class="Blog_Entry">
           <div class="Blog_Date">
-            <p class="Blog_Date_Text"><span class="Blog_Date_Number">29</span> Jan, 2025</p>
+            <h3 class="blog_date_day">29</h3>
+            <p class="Blog_Date_month-year">Jan. 2025</p>
           </div>
           <div class="Blog_Desc">
             <div class="Blog_Desc_Content">
-              <p class="Blog_Desc_Heading">Sample Image Post</p>
+              <h3 class="Blog_Desc_Heading">Sample Image Post</h3>
               <p class="Blog_Desc_Tags">Photography</p>
             </div>
-            <img src="favicon.ico" alt="Blog Icon" class="Blog_Desc_Icon">
+            <div class="blog_desc_box"></div>
           </div>
         </div>
         <div class="Blog_Entry">
           <div class="Blog_Date">
-            <p class="Blog_Date_Text"><span class="Blog_Date_Number">29</span> Jan, 2025</p>
+            <h3 class="blog_date_day">29</h3>
+            <p class="Blog_Date_month-year">Jan. 2025</p>
           </div>
           <div class="Blog_Desc">
             <div class="Blog_Desc_Content">
-              <p class="Blog_Desc_Heading">Sample Image Post</p>
+              <h3 class="Blog_Desc_Heading">Sample Image Post</h3>
               <p class="Blog_Desc_Tags">Photography</p>
             </div>
-            <img src="favicon.ico" alt="Blog Icon" class="Blog_Desc_Icon">
+            <div class="blog_desc_box"></div>
           </div>
         </div>
       </div>
@@ -150,24 +155,70 @@
     <!-- Portfolio Section -->
     <section class="Section">
       <div class="Section_Header">
-        <h2 class="Section_Header_Title">Our Best Work. Period.</h2>
-        <h4 class="Section_Header_Subtitle">Client happy? We are happy.</h4>
+        <div>
+          <h2 class="Section_Header_Title">Our Best Work. Period.</h2>
+          <h4 class="Section_Header_Subtitle">Client happy? We are happy.</h4>
+        </div>
       </div>
       <div class="Section_Portfolio">
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
-        <a href=""><img src="favicon.ico" alt="project" class="Project"></a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <div>
+              <h3>Sample Image Post</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+        </a>
       </div>
     </section>
 
     <!-- Clients Section -->
     <section class="Section">
       <div class="Section_Header">
-        <h2 class="Section_Header_Title">Satisfaction Guaranteed</h2>
-        <h4 class="Section_Header_Subtitle">Past clients with our work. We are not happy until YOU are happy.</h4>
+        <div>
+          <h2 class="Section_Header_Title">Satisfaction Guaranteed</h2>
+          <h4 class="Section_Header_Subtitle">Past clients with our work. We are not happy until YOU are happy.</h4>
+        </div>
       </div>
       <div class="Section_Clients">
         <div class="Client">
@@ -191,10 +242,15 @@
   <!-- Footer -->
   <footer class="Page_Footer">
     <!-- CEO Section -->
-    <section class="Footer_Section_CEO">
-      <img src="favicon.ico" alt="CEO portrait" class="CEO_Portrait">
-      <p class="CEO_Story">Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.</p>
-    </section>
+    <div class="Footer_Section_CEO">
+      <div>
+        <img src="favicon.ico" alt="CEO portrait" class="CEO_Portrait">
+      </div>
+      <div>
+        <p class="CEO_Story">Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.</p>
+        <hr>
+      </div>
+    </div>
 
     <!-- Footer Information -->
     <section class="Footer_Content">
@@ -232,16 +288,11 @@
           <div class="Social_Media_Link Social_Media_Link_Yellow"></div>
         </div>
         <div class="Footer_Social_Media_Email">
-          <input type="text" placeholder="Enter your Email..." class="Social_Media_Email_Textbox">
-          <a href="" class="Social_Media_Email_Send"><img src="favicon.ico" alt="send email button"></a>
+          <form action="/" method="post">
+            <input type="text" placeholder="Enter your Email..." class="Social_Media_Email_Textbox">
+            <input type="image" src="favicon.ico" alt="submit button">
+          </form>
         </div>
-      </div>
-      <div class="Footer_ColourBar">
-        <div class="ColourBar_Colour ColourBar_Green"></div>
-        <div class="ColourBar_Colour ColourBar_Yellow"></div>
-        <div class="ColourBar_Colour ColourBar_Red"></div>
-        <div class="ColourBar_Colour ColourBar_Light_Blue"></div>
-        <div class="ColourBar_Colour ColourBar_Dark_Blue"></div>
       </div>
     </section>
   </footer>
